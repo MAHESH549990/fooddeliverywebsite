@@ -11,6 +11,7 @@ app.set("view engine","ejs");
 app.set("views",path.join(__dirname,"views"));
 
 
+
 app.listen(port,()=>{
   console.log("Server is running at port "+port);
 });
@@ -22,7 +23,12 @@ app.get("/",(req,res)=>{
 app.get("/login",(req,res)=>{
   res.render("loginpage.ejs");
 });
+
 app.get("/signup",(req,res)=>{
   res.render("signUppage.ejs");
+});
+
+app.get("/home",(req,res)=>{
+  res.render("home.ejs");
 });
 
