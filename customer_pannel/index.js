@@ -32,3 +32,7 @@ app.get("/home",(req,res)=>{
   res.render("home.ejs");
 });
 
+app.get("/home/:profile",(req,res)=>{
+  res.render("profile.ejs");
+});
+
