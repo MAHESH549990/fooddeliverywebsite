@@ -150,7 +150,7 @@ body{
   font-weight: 600;
   opacity: 0.9;
 }
-.item1 button{
+.item1 button,button{
   margin-top:1rem;
   height: 2.5rem;
   margin-left:2.8rem;
@@ -160,6 +160,7 @@ body{
   opacity: 0.8;
   align-items: center;
   justify-content: center;
+  padding:0.1rem;
 }
 .item1 button:hover{
   background-color: greenyellow;
@@ -194,4 +195,32 @@ body{
   font-weight: 600;
   position: relative;
   margin-top:2.5rem;
+}
+
+
+.user-profile-entire{
+  height:70vh;
+  width:58vw;
+  background-color: white;
+  border-radius: 15px;
+  border:3px solid rgb(81, 79, 79);
+  padding:2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left:15rem;
+  margin-top:5rem;
+}
+.address-label{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top:4rem;
+  margin-bottom:1rem;
+}
+#address{
+  width: 30vw;
+  height: 10vh;
+  border-radius: 10px;
+  border:1px solid rgb(81, 79, 79);
+  font-size:1.5rem;
+  padding:0.3em;
 }

@@ -28,6 +28,7 @@ app.get("/signup",(req,res)=>{
   res.render("signUppage.ejs");
 });
 
+
 app.get("/home",(req,res)=>{
   res.render("home.ejs");
 });
